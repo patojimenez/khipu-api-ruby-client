@@ -42,7 +42,7 @@ There are a more params you can send in each request. You might want to consider
 transaction_id      # transaction id in your system
 return_url          # after (potential) success, the client will be redirected to this url
 cancel_url          # if the payment is canceled, the client will be redirected to this url
-notify_url          # khipu will send a notification to this url - the client will not see this request
+notification_url    # khipu will send a notification to this url - the client will not see this request
 notify_api_version  # "1.3"
 ```
 
